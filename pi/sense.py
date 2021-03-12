@@ -9,6 +9,7 @@ import thingspeak
 import datetime
 import csv
 import Adafruit_DHT
+import board
 import pandas as pd
 from sps30 import SPS30
 from time import sleep
