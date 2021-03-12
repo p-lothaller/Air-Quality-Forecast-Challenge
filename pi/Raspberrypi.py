@@ -142,7 +142,7 @@ import pandas as pd
 def write_to_csv():
     # a is for append, if w for write is used then it overwrites the file
     with open('/home/pi/readings.csv', 'a') as readings:
-        values = pd.DataFrame( [ [data_now(), time_now(), get_temp(), get_hum(), get_pm1(), get_pm25(), get_pm10()] ], col____ ) #TODO
+        values = pd.DataFrame( [ [data_now(), time_now(), get_temp(), get_hum(), get_pm1(), get_pm25(), get_pm10()] ], columns = ('Date', 'Time', 'Temperature', 'Humidity', 'PM1.0', 'PM2.5', 'PM10.0')) 
         write_to_log = values.to_csv('readings.csv', mode='a', index=False, sep=',', header=False)
         return(write_to_log)
 
