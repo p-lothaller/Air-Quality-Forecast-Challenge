@@ -48,7 +48,7 @@ else:
 
 sps.set_auto_cleaning_interval(seconds) # default 604800, set 0 to disable auto-cleaning
 
-sps.device_reset() # device ahs to be powered-down or reset to check new auto-cleaning interval
+sps.device_reset() # device has to be powered-down or reset to check new auto-cleaning interval
 
 if sps.read_auto_cleaning_interval() == sps.AUTO_CLN_INTERVAL_ERROR:
     raise Exception("AUTO-CLEANING INTERVAL CRC ERROR!")
