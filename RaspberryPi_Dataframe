@@ -5,7 +5,7 @@ import thingspeak
 import datetime
 import csv
 import Adafruit_DHT
-from sps30 import sps30
+from sps30 import SPS30
 from time import sleep
 from urllib.request import urlopen
 
