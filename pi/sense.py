@@ -2,7 +2,7 @@
     Senses environment
 """
 
-#import libraries
+#Import libraries
 import sys
 import time
 import thingspeak
@@ -14,15 +14,16 @@ from sps30 import SPS30
 from time import sleep
 from urllib.request import urlopen
 
-#constants
+#Constants
 DHT_PIN = 4
+CLEANING_INTERVAL = 0
 
 #Initialize sensors
 dht = Adafruit_DHT.DHT22
 sps = SPS30(1)
 
 #Turn off auto cleaning
-sps.set_auto_cleaning_interval(0) 
+sps.set_auto_cleaning_interval(CLEANING_INTERVAL) 
 
 #Current date
 today = datetime.datetime.now().strftime("%Y-%m-%d")
