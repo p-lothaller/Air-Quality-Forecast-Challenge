@@ -1,5 +1,5 @@
 """
-    Senses environment
+    Script to gather data from the environment and write to csv file
 """
 
 #Import libraries
@@ -9,7 +9,7 @@ import thingspeak
 import datetime
 import csv
 import Adafruit_DHT
-import pandas
+import pandas as pd
 from sps30 import SPS30
 from time import sleep
 from urllib.request import urlopen
@@ -43,19 +43,21 @@ while not sps.read_data_ready_flag():
 if sps.read_measured_values() == sps.MEASURED_VALUES_ERROR:
     raise Exception("MEASURED VALUES CRC ERROR!")
 else:
-    print("PM1.0 Value in µg/m3: " + str(sps.dict_values['pm1p0']))
+    #print("PM1.0 Value in µg/m3: " + str(sps.dict_values['pm1p0']))
     pm1 = str(sps.dict_values['pm1p0'])
-    print("PM2.5 Value in µg/m3: " + str(sps.dict_values['pm2p5']))
+    #print("PM2.5 Value in µg/m3: " + str(sps.dict_values['pm2p5']))
     pm25 = str(sps.dict_values['pm2p5'])
-    print("PM10.0 Value in µg/m3: " + str(sps.dict_values['pm2p5']))
+    #print("PM10.0 Value in µg/m3: " + str(sps.dict_values['pm2p5']))
     pm10 = str(sps.dict_values['pm2p5'])
 
 sps.stop_measurement()
 
-
+#Write to csv file
 with open('/home/pi/readings.csv', 'a') as readings:
     values = pd.DataFrame( [ [data_now(), time_now(), temperature, humidity, pm1, pm25, pm10] ], col____ )
     write_to_log = values.to_csv('readings.csv', mode='a', index=False, sep=',', header=False)
     
+
+##TODO: Send data to Thingspeak
 
 
