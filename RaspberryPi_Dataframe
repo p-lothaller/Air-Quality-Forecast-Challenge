@@ -32,8 +32,8 @@ def get_hum():
     return(hum)
 
 
-print('Temperature in Celcius:,' get_temp() )
-print('Humidity in %:', get_hum() )
+print('Temperature in Celcius: ', get_temp() )
+print('Humidity in %: ', get_hum() )
 
 
 if sps.read_article_code() == sps.ARTICLE_CODE_ERROR:
