@@ -1,1 +1,5 @@
-
+thingspeak
+pandas
+sps30
+adafruit-circuitpython-dht
+urllib
