@@ -1,6 +1,4 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
+
 import sys
 import time
 import thingspeak
@@ -12,9 +10,6 @@ from time import sleep
 from urllib.request import urlopen
 
 
-# %%
-
-
 sensor = Adafruit_DHT.DHT22
 
 # Set to your GPIO pin
@@ -24,11 +19,9 @@ sps = SPS30(1)
 seconds = 0
 
 
-# %%
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
 
-# %%
 def get_temp():
     temp = round((temperature), 2)
     temp = str(temp)
@@ -40,12 +33,10 @@ def get_hum():
     return(hum)
 
 
-# %%
 print('Temperature in Celcius: ', get_temp() )
 print('Humidity in %:', get_hum() )
 
 
-# %%
 if sps.read_article_code() == sps.ARTICLE_CODE_ERROR:
     raise Exception("ARTICLE CODE CRC ERROR!")
 else:
@@ -66,7 +57,6 @@ else:
     print("AUTO-CLEANING INTERVAL: " + str(sps.read_auto_cleaning_interval() ))
 
 
-# %%
 sps.start_measurement()
 
 while not sps.read_data_ready_flag():
@@ -87,7 +77,6 @@ sps.stop_measurement()
 sps.start_fan_cleaning()
 
 
-# %%
 def get_pml():
     variable = "pml"
     unit = "ug/m3"
@@ -120,29 +109,24 @@ def time_now():
     return(now)
 
 
-# %%
 # Thingspeak connection
 # TODO
 # myAPI = ''
 # baseURL = 'https:'
 
 
-# %%
-
 f = urlopen(baseURL + ) # TODO
 f.read()
 f.close()
 
 
-# %%
 import pandas as pd
 
 
-# %%
 def write_to_csv():
     # a is for append, if w for write is used then it overwrites the file
     with open('/home/pi/readings.csv', 'a') as readings:
-        values = pd.DataFrame( [ [data_now(), time_now(), get_temp(), get_hum(), get_pm1(), get_pm25(), get_pm10()] ], col____ ) #TODO
+        values = pd.DataFrame( [ [data_now(), time_now(), get_temp(), get_hum(), get_pm1(), get_pm25(), get_pm10()] ], columns = ('Date', 'Time', 'Temperature', 'Humidity', 'PM1.0', 'PM2.5', 'PM10.0')) 
         write_to_log = values.to_csv('readings.csv', mode='a', index=False, sep=',', header=False)
         return(write_to_log)
 
