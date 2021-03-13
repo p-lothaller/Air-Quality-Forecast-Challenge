@@ -1,4 +1,4 @@
-
+import pandas as pd
 import sys
 import time
 import thingspeak
@@ -118,9 +118,6 @@ def time_now():
 f = urlopen(baseURL + ) # TODO
 f.read()
 f.close()
-
-
-import pandas as pd
 
 
 def write_to_csv():
