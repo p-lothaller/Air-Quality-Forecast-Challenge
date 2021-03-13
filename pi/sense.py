@@ -8,7 +8,7 @@ import time
 import thingspeak
 import datetime
 import csv
-import Adafruit_DHT
+import adafruit_dht
 import board
 import pandas as pd
 from sps30 import SPS30
@@ -20,15 +20,15 @@ DHT_PIN = 4
 CLEANING_INTERVAL = 0
 
 #Initialize sensors
-dht = Adafruit_DHT.DHT22
+dht = adafruit_dht.DHT22
 sps = SPS30(1)
 
 #Turn off auto cleaning
 sps.set_auto_cleaning_interval(CLEANING_INTERVAL) 
 
 #Current date
-today = datetime.datetime.now().strftime("%Y-%m-%d")
-now = datetime.datetime.now().strftime("%H:%M:%S")
+date = datetime.datetime.now().strftime("%Y-%m-%d")
+time = datetime.datetime.now().strftime("%H:%M:%S")
 
 #DHT measurements
 humidity, temperature = Adafruit_DHT.read_retry(dht, DHT_PIN)
@@ -41,7 +41,7 @@ while not sps.read_data_ready_flag():
     if sps.read_data_ready_flag() == sps.DATA_READY_FLAG_ERROR:
         raise Exception("DATA-READY FLAG CRC ERROR!")
 
-if sps.read_measured_values() == sps.MEASURED_VALUES_ERROR:
+if sps.dict_values['pm1p0'] == 'None' or sps.read_measured_values() == sps.MEASURED_VALUES_ERROR:
     raise Exception("MEASURED VALUES CRC ERROR!")
 else:
     #print("PM1.0 Value in µg/m3: " + str(sps.dict_values['pm1p0']))
@@ -55,7 +55,7 @@ sps.stop_measurement()
 
 #Write to csv file
 with open('/home/pi/readings.csv', 'a') as readings:
-    values = pd.DataFrame( [ [data_now(), time_now(), temperature, humidity, pm1, pm25, pm10] ], col____ )
+    values = pd.DataFrame( [ [date, time, temperature, humidity, pm1, pm25, pm10] ] )
     write_to_log = values.to_csv('readings.csv', mode='a', index=False, sep=',', header=False)
     
 
