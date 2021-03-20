@@ -92,12 +92,29 @@ info = ''
 for i in pollutants_detail:
     info += str(i.get_text())
 
-pm2_5 = re.search('PM2.5 (.*) pm10', info).group(1)
-pm10 = re.search('pm10 (.*) o3', info).group(1)
+#Not all the data is present so we have to see if the data can be collected:
+
+if info.find('PM2.5') != -1:
+    pm2_5 = re.search('PM2.5 (.*) ', info).group(1)
+    pm2_5Value = pm2_5.split(' ')[1]
+    sheet.cell(column=8, row=sheet.max_row, value=pm2_5Value)
+else:
+    sheet.cell(column=8, row=sheet.max_row, value='N/A')
+
+if info.find('pm10') != -1:
+    pm10 = re.search('pm10 (.*) ', info).group(1)
+    pm10Value = pm10.split(' ')[1]
+    sheet.cell(column=9, row=sheet.max_row, value=pm10Value)
+else:
+    sheet.cell(column=9, row=sheet.max_row, value='N/A')
+
+
+#pm2_5 = re.search('PM2.5 (.*) pm10', info).group(1)
+#pm10 = re.search('pm10 (.*) o3', info).group(1)
 #o3 = re.search('o3 (.*)', info).group(1)
 
-sheet.cell(column=8, row=sheet.max_row, value=pm2_5.strip(" µg/m³"))
-sheet.cell(column=9, row=sheet.max_row, value=pm10.strip(" µg/m³"))
+#sheet.cell(column=8, row=sheet.max_row, value=pm2_5)
+#sheet.cell(column=9, row=sheet.max_row, value=pm10.strip(" µg/m³"))
 #sheet.cell(column=10, row=sheet.max_row, value=o3)
 
 #Save .xlxs workbook
