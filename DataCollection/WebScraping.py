@@ -10,7 +10,7 @@ from datetime import date
 from datetime import datetime
 import re
 
-#Check wether a .xlsx workbook and sheet already exist to write data too, else create a new one
+#If a workbook with data already exist, open and save data to it, else create a new workbook to work from
 
 file_name = 'WeatherData.xlsx'
 
@@ -20,24 +20,28 @@ if path.exists(file_name):
 else:
     workbook = Workbook()
     sheet = workbook.active
-    sheet["A1"] = "Date"
-    sheet["B1"] = "Time"
-    sheet["C1"] = "Weather"
-    sheet["D1"] = "Temperature (°C)"
-    sheet["E1"] = "Humidity (%)"
-    sheet["F1"] = "Wind (km/h)"
-    sheet["G1"] = "Pressure (mb)"
-    sheet["H1"] = "PM2.5 (µg/m³)"
-    sheet["I1"] = "Pm10 (µg/m³)"
+    sheet["A1"] = "Location"
+    sheet["B1"] = "Date"
+    sheet["C1"] = "Time"
+    sheet["D1"] = "Weather"
+    sheet["E1"] = "Temperature (°C)"
+    sheet["F1"] = "Humidity (%)"
+    sheet["G1"] = "Wind (km/h)"
+    sheet["H1"] = "Pressure (mb)"
+    sheet["I1"] = "PM2.5 (µg/m³)"
+    sheet["J1"] = "Pm10 (µg/m³)"
+    sheet["K1"] = "AQI Value"
 
-#Adding date and time to sheet
+#Adding date, time and location to sheet
 
 today = date.today()
 date = today.strftime("%d/%m/%Y")
-sheet.cell(column=1, row=sheet.max_row+1, value=date)
+sheet.cell(column=2, row=sheet.max_row+1, value=date)
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
-sheet.cell(column=2, row=sheet.max_row, value=current_time)
+sheet.cell(column=3, row=sheet.max_row, value=current_time)
+location = "stampfenbachstrasse" #Change if the location is changed
+sheet.cell(column=1, row=sheet.max_row, value=location)
 
 #Retrieve information from IQAIR
 
@@ -51,16 +55,15 @@ driver.get(url)
 #Give browser time to load (increase time value for less stable internet conncetions)
 wait = WebDriverWait(driver, 10)
 
-#accept the terms and conditions window
-#driver.find_element_by_xpath("/html/body/app-root/app-site-cookie-dialog/div/div/div[2]/button").click()
-
+#Retrieve source information of the page
 source = driver.page_source
-# quit the driver in order
+# quit the driver
 driver.quit()
 
 
 #Creating usable HTML from the source
 soup = BeautifulSoup(source, 'lxml')
+
 
 #Find information regarding the general weather - search for table named "What is the current weather near Zürich Stampfenbachstrasse, Zurich?"
 #This will need to be changed if the location is changed
@@ -76,11 +79,11 @@ humidity = re.search(given_data[2]+'(.*)'+given_data[3], info).group(1)
 wind = re.search(given_data[3]+'(.*)'+given_data[4], info).group(1)
 pressure = re.search(given_data[4]+'(.*)', info).group(1)
 
-sheet.cell(column=3, row=sheet.max_row, value=weather)
-sheet.cell(column=4, row=sheet.max_row, value=temp.strip("°C"))
-sheet.cell(column=5, row=sheet.max_row, value=humidity.strip("%"))
-sheet.cell(column=6, row=sheet.max_row, value=wind.strip(" km/h"))
-sheet.cell(column=7, row=sheet.max_row, value=pressure.strip(" mb"))
+sheet.cell(column=4, row=sheet.max_row, value=weather)
+sheet.cell(column=5, row=sheet.max_row, value=temp.strip("°C"))
+sheet.cell(column=6, row=sheet.max_row, value=humidity.strip("%"))
+sheet.cell(column=7, row=sheet.max_row, value=wind.strip(" km/h"))
+sheet.cell(column=8, row=sheet.max_row, value=pressure.strip(" mb"))
 
 #Find information regarding the pollutants - search using the class type as there are two tables with the same title from which need to be scraped
 #This will need to be changed if the location is changed
@@ -97,28 +100,23 @@ for i in pollutants_detail:
 if info.find('PM2.5') != -1:
     pm2_5 = re.search('PM2.5 (.*) ', info).group(1)
     pm2_5Value = pm2_5.split(' ')[1]
-    sheet.cell(column=8, row=sheet.max_row, value=pm2_5Value)
+    sheet.cell(column=9, row=sheet.max_row, value=pm2_5Value)
 else:
-    sheet.cell(column=8, row=sheet.max_row, value='N/A')
+    sheet.cell(column=9, row=sheet.max_row, value='N/A')
 
 if info.find('pm10') != -1:
     pm10 = re.search('pm10 (.*) ', info).group(1)
     pm10Value = pm10.split(' ')[1]
-    sheet.cell(column=9, row=sheet.max_row, value=pm10Value)
+    sheet.cell(column=10, row=sheet.max_row, value=pm10Value)
 else:
-    sheet.cell(column=9, row=sheet.max_row, value='N/A')
+    sheet.cell(column=10, row=sheet.max_row, value='N/A')
 
-
-#pm2_5 = re.search('PM2.5 (.*) pm10', info).group(1)
-#pm10 = re.search('pm10 (.*) o3', info).group(1)
-#o3 = re.search('o3 (.*)', info).group(1)
-
-#sheet.cell(column=8, row=sheet.max_row, value=pm2_5)
-#sheet.cell(column=9, row=sheet.max_row, value=pm10.strip(" µg/m³"))
-#sheet.cell(column=10, row=sheet.max_row, value=o3)
+try:
+    aqi_value = soup.find('p', {'class': "aqi-value__value"}).get_text()
+    sheet.cell(column=11, row=sheet.max_row, value=aqi_value)
+except:
+    sheet.cell(column=11, row=sheet.max_row, value="N/A")
 
 #Save .xlxs workbook
 workbook.save(filename=file_name)
 
-#for i in table:
-#    print(i.get_text())
