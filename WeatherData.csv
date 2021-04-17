@@ -1,0 +1,510 @@
+﻿Location,Date,Time,Weather,Temperature (°C),Humidity (%),Wind (km/h),Pressure (mb),PM2.5 (µg/m³),Pm10 (µg/m³),AQI Value
+stampfenbachstrasse,23/03/2021,10:00:00,Clear sky,3,65,3.7,1025,16,24.3, 59 
+stampfenbachstrasse,23/03/2021,11:00:01,Clear sky,3,65,3.7,1025,14,20.9, 55 
+stampfenbachstrasse,23/03/2021,12:00:01,Clear sky,7,57,14.8,1025,12,17.3, 50 
+stampfenbachstrasse,23/03/2021,13:00:01,Clear sky,7,57,14.8,1025,N/A,N/A, 27 
+stampfenbachstrasse,23/03/2021,14:00:01,Clear sky,9,40,11.1,1025,11,16.2, 45 
+stampfenbachstrasse,23/03/2021,15:00:01,Clear sky,9,40,11.1,1025,10,15, 41 
+stampfenbachstrasse,23/03/2021,16:00:01,Clear sky,10,43,7.4,1024,8,12.7, 33 
+stampfenbachstrasse,23/03/2021,17:00:01,Clear sky,10,43,7.4,1024,6,10.5, 30 
+stampfenbachstrasse,23/03/2021,18:00:01,Clear sky,9,43,9.3,1024,8,12, 33 
+stampfenbachstrasse,23/03/2021,19:00:01,Clear sky,9,43,9.3,1024,7,11.1, 29 
+stampfenbachstrasse,23/03/2021,20:00:01,Few clouds,7,46,3.7,1024,8,12.2, 33 
+stampfenbachstrasse,23/03/2021,21:00:01,Few clouds,7,46,3.7,1024,8,12.2, 33 
+stampfenbachstrasse,23/03/2021,22:00:01,Broken clouds,3,65,1.8,1025,8,11.9, 33 
+stampfenbachstrasse,23/03/2021,23:00:01,Broken clouds,3,65,1.8,1025,10,14, 41 
+stampfenbachstrasse,24/03/2021,00:00:01,Scattered clouds,1,75,2.7,1025,8,12.4, 33 
+stampfenbachstrasse,24/03/2021,01:00:01,Scattered clouds,1,75,2.7,1025,8,12.4, 33 
+stampfenbachstrasse,24/03/2021,02:00:01,Scattered clouds,0,80,2.3,1025,10,13.7, 41 
+stampfenbachstrasse,24/03/2021,03:00:01,Scattered clouds,0,80,2.3,1025,9,12.9, 37 
+stampfenbachstrasse,24/03/2021,04:00:01,Clear sky,-1,93,2.1,1025,10,13.7, 41 
+stampfenbachstrasse,24/03/2021,05:00:01,Clear sky,-1,93,2.1,1025,10,13.7, 41 
+stampfenbachstrasse,24/03/2021,06:00:01,Clear sky,-1,86,1.7,1025,10,13.6, 41 
+stampfenbachstrasse,24/03/2021,07:00:01,Clear sky,-1,86,1.7,1025,10,14.8, 41 
+stampfenbachstrasse,24/03/2021,08:00:01,Clear sky,-1,86,2.3,1025,N/A,14.8, 13 
+stampfenbachstrasse,24/03/2021,09:00:01,Clear sky,-1,86,2.3,1025,14,19.9, 55 
+stampfenbachstrasse,24/03/2021,10:00:01,Clear sky,4,75,1.7,1026,18,25.2, 63 
+stampfenbachstrasse,24/03/2021,11:00:01,Clear sky,4,75,1.7,1026,14,N/A, 55 
+stampfenbachstrasse,24/03/2021,12:00:01,Clear sky,9,49,3.7,1025,15,22.9, 57 
+stampfenbachstrasse,24/03/2021,13:00:02,Clear sky,9,49,3.7,1025,17,26, 61 
+stampfenbachstrasse,24/03/2021,14:00:01,Clear sky,12,43,7.4,1024,11,18.9, 45 
+stampfenbachstrasse,24/03/2021,15:00:01,Clear sky,12,43,7.4,1024,10,16.1, 41 
+stampfenbachstrasse,24/03/2021,16:00:01,Clear sky,14,38,3.7,1023,13,18.6, 53 
+stampfenbachstrasse,24/03/2021,17:00:02,Clear sky,14,38,3.7,1023,11,15.5, 45 
+stampfenbachstrasse,24/03/2021,18:00:02,Clear sky,15,33,3.7,1022,10,14.3, 41 
+stampfenbachstrasse,24/03/2021,19:00:01,Clear sky,15,33,3.7,1022,11,16.1, 45 
+stampfenbachstrasse,24/03/2021,20:00:01,Scattered clouds,11,41,3.7,1022,11,N/A, 45 
+stampfenbachstrasse,24/03/2021,21:00:01,Scattered clouds,11,41,3.7,1022,N/A,N/A, 13 
+stampfenbachstrasse,24/03/2021,22:00:01,Clear sky,6,70,3.7,1023,N/A,13.4, 12 
+stampfenbachstrasse,24/03/2021,23:00:01,Clear sky,6,70,3.7,1023,N/A,13.5, 16 
+stampfenbachstrasse,25/03/2021,00:00:01,Clear sky,4,75,3.7,1023,7,11, 29 
+stampfenbachstrasse,25/03/2021,01:00:01,Clear sky,4,75,3.7,1023,7,11, 29 
+stampfenbachstrasse,25/03/2021,02:00:01,Clear sky,2,81,4.1,1023,7,10.2, 29 
+stampfenbachstrasse,25/03/2021,03:00:01,Clear sky,2,81,4.1,1023,N/A,8.5, 17 
+stampfenbachstrasse,25/03/2021,04:00:01,Scattered clouds,0,80,3.9,1022,6,8.6, 25 
+stampfenbachstrasse,25/03/2021,05:00:01,Scattered clouds,0,80,3.9,1022,8,11.5, 33 
+stampfenbachstrasse,25/03/2021,06:00:01,Scattered clouds,1,80,4.1,1022,N/A,13, 12 
+stampfenbachstrasse,25/03/2021,07:00:01,Scattered clouds,1,80,4.1,1022,11,16.3, 45 
+stampfenbachstrasse,25/03/2021,08:00:01,Clear sky,1,93,3.8,1022,7,11.3, 29 
+stampfenbachstrasse,25/03/2021,09:00:01,Clear sky,3,80,2.8,1023,10,14.9, 41 
+stampfenbachstrasse,25/03/2021,10:00:01,Clear sky,3,80,2.8,1023,N/A,19.6, 18 
+stampfenbachstrasse,25/03/2021,11:00:01,Clear sky,8,57,3.7,1023,12,17.6, 50 
+stampfenbachstrasse,25/03/2021,12:00:01,Clear sky,8,57,3.7,1023,13,20.2, 53 
+stampfenbachstrasse,25/03/2021,13:00:01,Clear sky,13,38,7.2,1022,12,18.6, 50 
+stampfenbachstrasse,25/03/2021,14:00:01,Clear sky,13,38,7.2,1022,11,15.5, 45 
+stampfenbachstrasse,25/03/2021,15:00:01,Clear sky,16,33,3.7,1021,N/A,15.4, 33 
+stampfenbachstrasse,25/03/2021,16:00:01,Clear sky,16,33,3.7,1021,8,12.2, 35 
+stampfenbachstrasse,25/03/2021,17:00:01,Few clouds,15,36,9.3,1021,8,12.3, 36 
+stampfenbachstrasse,25/03/2021,18:00:01,Few clouds,15,36,9.3,1021,8,N/A, 34 
+stampfenbachstrasse,25/03/2021,19:00:01,Few clouds,13,44,5.5,1021,8,12.9, 34 
+stampfenbachstrasse,25/03/2021,20:00:01,Few clouds,13,44,5.5,1021,N/A,N/A, 35 
+stampfenbachstrasse,25/03/2021,21:00:01,Few clouds,10,47,3.7,1021,8,11.9, 33 
+stampfenbachstrasse,25/03/2021,22:00:01,Few clouds,10,47,3.7,1021,7,11, 29 
+stampfenbachstrasse,25/03/2021,23:00:01,Broken clouds,8,71,3.7,1022,6,9.8, 25 
+stampfenbachstrasse,26/03/2021,00:00:01,Broken clouds,8,71,1.8,1023,6,10.8, 25 
+stampfenbachstrasse,26/03/2021,01:00:01,Broken clouds,8,71,1.8,1023,6,10.8, 25 
+stampfenbachstrasse,26/03/2021,02:00:01,Few clouds,5,81,3,1023,5,8.5, 23 
+stampfenbachstrasse,26/03/2021,03:00:01,Few clouds,5,81,3,1023,5,8.3, 21 
+stampfenbachstrasse,26/03/2021,04:00:01,Scattered clouds,4,81,1.8,1022,5,8, 21 
+stampfenbachstrasse,26/03/2021,05:00:01,Scattered clouds,4,81,1.8,1022,5,7.9, 21 
+stampfenbachstrasse,26/03/2021,06:00:01,Few clouds,2,87,3.7,1022,5,8.3, 21 
+stampfenbachstrasse,26/03/2021,07:00:01,Few clouds,2,87,3.7,1022,N/A,8.5, 8 
+stampfenbachstrasse,26/03/2021,08:00:01,Clear sky,3,93,3.2,1022,N/A,13, 18 
+stampfenbachstrasse,26/03/2021,09:00:01,Clear sky,3,93,3.2,1022,11,15.5, 45 
+stampfenbachstrasse,26/03/2021,10:00:01,Clear sky,8,71,1.8,1022,N/A,N/A, 11 
+stampfenbachstrasse,26/03/2021,11:00:01,Clear sky,8,71,1.8,1022,15,22.2, 57 
+stampfenbachstrasse,26/03/2021,12:00:01,Clear sky,12,54,3.7,1022,20,27.8, 68 
+stampfenbachstrasse,26/03/2021,13:00:01,Clear sky,12,54,3.7,1022,17,25.3, 61 
+stampfenbachstrasse,26/03/2021,14:00:01,Clear sky,15,39,1.8,1020,14,20.5, 55 
+stampfenbachstrasse,26/03/2021,15:00:01,Clear sky,15,39,1.8,1020,13,18.3, 53 
+stampfenbachstrasse,26/03/2021,16:00:01,Clear sky,16,39,14.8,1019,14,22.6, 55 
+stampfenbachstrasse,26/03/2021,17:00:01,Clear sky,16,39,5.5,1018,N/A,N/A, 38 
+stampfenbachstrasse,26/03/2021,18:00:01,Clear sky,16,39,5.5,1018,N/A,22.3, 32 
+stampfenbachstrasse,26/03/2021,19:00:01,Broken clouds,14,36,5.7,1018,14,21.4, 55 
+stampfenbachstrasse,26/03/2021,20:00:01,Broken clouds,14,36,5.7,1018,13,20, 53 
+stampfenbachstrasse,26/03/2021,21:00:01,Broken clouds,11,62,9.3,1018,N/A,N/A, 16 
+stampfenbachstrasse,26/03/2021,22:00:01,Broken clouds,11,62,9.3,1018,13,20.6, 53 
+stampfenbachstrasse,26/03/2021,23:00:01,Broken clouds,10,66,11.1,1018,13,19, 53 
+stampfenbachstrasse,27/03/2021,00:00:01,Broken clouds,10,66,11.1,1018,12,18.3, 50 
+stampfenbachstrasse,27/03/2021,01:00:01,Broken clouds,9,71,13,1019,12,18.3, 50 
+stampfenbachstrasse,27/03/2021,02:00:01,Broken clouds,9,71,13,1019,N/A,19.2, 27 
+stampfenbachstrasse,27/03/2021,03:00:01,Rain,10,66,7.4,1019,10,15.4, 41 
+stampfenbachstrasse,27/03/2021,04:00:01,Rain,10,66,7.4,1019,6,10.6, 36 
+stampfenbachstrasse,27/03/2021,05:00:01,Rain,8,81,16.7,1020,4,7.3, 36 
+stampfenbachstrasse,27/03/2021,06:00:01,Rain,8,81,16.7,1020,4,6.3, 34 
+stampfenbachstrasse,27/03/2021,07:00:01,Rain,6,87,11.1,1022,3,5.3, 32 
+stampfenbachstrasse,27/03/2021,08:00:01,Rain,6,87,11.1,1022,3,5, 31 
+stampfenbachstrasse,27/03/2021,09:00:01,Broken clouds,5,75,20.4,1025,2,5, 30 
+stampfenbachstrasse,27/03/2021,10:00:01,Broken clouds,5,75,11.1,1026,3,5.9, 28 
+stampfenbachstrasse,27/03/2021,11:00:01,Broken clouds,5,75,11.1,1026,3,5.9, 29 
+stampfenbachstrasse,27/03/2021,12:00:01,Broken clouds,7,61,16.7,1027,4,6.4, 31 
+stampfenbachstrasse,27/03/2021,13:00:01,Broken clouds,7,61,16.7,1027,4,6.4, 31 
+stampfenbachstrasse,27/03/2021,14:00:48,Broken clouds,9,53,22.2,1027,4,6.8, 31 
+stampfenbachstrasse,27/03/2021,15:00:01,Broken clouds,9,53,22.2,1027,4,6.2, 17 
+stampfenbachstrasse,27/03/2021,16:00:01,Scattered clouds,10,43,22.2,1027,4,6.6, 32 
+stampfenbachstrasse,27/03/2021,17:00:01,Scattered clouds,10,43,22.2,1027,N/A,7.5, 33 
+stampfenbachstrasse,27/03/2021,18:00:01,Broken clouds,10,43,20.4,1028,4,6.1, 33 
+stampfenbachstrasse,27/03/2021,19:00:01,Broken clouds,10,43,20.4,1028,4,6.9, 32 
+stampfenbachstrasse,27/03/2021,20:00:01,Broken clouds,8,46,13,1029,N/A,6.5, 30 
+stampfenbachstrasse,27/03/2021,21:00:01,Broken clouds,8,46,13,1029,5,N/A, 21 
+stampfenbachstrasse,27/03/2021,22:00:01,Broken clouds,4,70,3.7,1030,N/A,8.4, 25 
+stampfenbachstrasse,27/03/2021,23:00:01,Broken clouds,4,70,3.7,1030,6,10.7, 25 
+stampfenbachstrasse,28/03/2021,00:00:01,Broken clouds,4,75,5.5,1031,N/A,9.8, 18 
+stampfenbachstrasse,28/03/2021,01:00:01,Broken clouds,5,75,3.7,1031,N/A,9.8, 18 
+stampfenbachstrasse,28/03/2021,03:00:01,Broken clouds,5,75,3.7,1031,6,9.8, 25 
+stampfenbachstrasse,28/03/2021,04:00:01,Scattered clouds,3,75,3.7,1031,6,9.8, 25 
+stampfenbachstrasse,28/03/2021,05:00:01,Scattered clouds,3,75,3.7,1031,6,9.9, 25 
+stampfenbachstrasse,28/03/2021,06:00:01,Few clouds,1,86,3,1030,5,8.7, 21 
+stampfenbachstrasse,28/03/2021,07:00:01,Few clouds,1,86,3,1030,N/A,8.3, 15 
+stampfenbachstrasse,28/03/2021,08:00:01,Scattered clouds,0,86,0.7,1031,N/A,8.7, 8 
+stampfenbachstrasse,28/03/2021,09:00:01,Scattered clouds,0,86,0.7,1031,6,9.8, 25 
+stampfenbachstrasse,28/03/2021,10:00:01,Broken clouds,3,86,1.8,1032,N/A,10.4, 9 
+stampfenbachstrasse,28/03/2021,11:00:01,Broken clouds,3,86,1.8,1032,6,9.5, 25 
+stampfenbachstrasse,28/03/2021,12:00:01,Broken clouds,8,65,3.7,1032,6,8.9, 25 
+stampfenbachstrasse,28/03/2021,13:00:01,Broken clouds,8,65,3.7,1032,6,8.9, 25 
+stampfenbachstrasse,28/03/2021,14:00:02,Broken clouds,11,43,1.8,1032,6,8.6, 29 
+stampfenbachstrasse,28/03/2021,15:00:01,Broken clouds,11,43,1.8,1032,5,7.8, 33 
+stampfenbachstrasse,28/03/2021,16:00:01,Broken clouds,13,38,7.4,1031,5,8.9, 33 
+stampfenbachstrasse,28/03/2021,17:00:01,Broken clouds,13,38,7.4,1031,N/A,9.2, 34 
+stampfenbachstrasse,28/03/2021,18:00:01,Broken clouds,16,29,9.3,1030,N/A,9.5, 38 
+stampfenbachstrasse,28/03/2021,19:00:01,Broken clouds,16,31,9.3,1030,6,9.9, 37 
+stampfenbachstrasse,28/03/2021,20:00:01,Broken clouds,13,36,7.4,1030,5,9.9, 36 
+stampfenbachstrasse,28/03/2021,21:00:01,Broken clouds,13,36,7.4,1030,5,9.9, 36 
+stampfenbachstrasse,28/03/2021,22:00:01,Broken clouds,9,57,5.5,1031,6,10.2, 25 
+stampfenbachstrasse,28/03/2021,23:00:02,Broken clouds,9,57,5.5,1031,8,12.9, 33 
+stampfenbachstrasse,29/03/2021,00:00:01,Broken clouds,6,75,5.5,1032,N/A,N/A, 14 
+stampfenbachstrasse,29/03/2021,01:00:02,Broken clouds,6,75,5.5,1032,N/A,N/A, 14 
+stampfenbachstrasse,29/03/2021,02:00:01,Broken clouds,5,75,5.1,1033,N/A,N/A, 14 
+stampfenbachstrasse,29/03/2021,03:00:01,Broken clouds,5,75,5.1,1033,7,10.3, 29 
+stampfenbachstrasse,29/03/2021,04:00:01,Broken clouds,5,75,5.1,1033,N/A,9.4, 23 
+stampfenbachstrasse,29/03/2021,05:00:01,Broken clouds,3,87,1.8,1032,N/A,9.2, 21 
+stampfenbachstrasse,29/03/2021,06:00:01,Broken clouds,3,87,1.8,1032,5,7.3, 21 
+stampfenbachstrasse,29/03/2021,07:00:01,Broken clouds,2,93,3.9,1033,6,8.4, 25 
+stampfenbachstrasse,29/03/2021,08:00:01,Broken clouds,2,93,3.9,1033,6,8.7, 25 
+stampfenbachstrasse,29/03/2021,09:00:01,Clear sky,3,80,3.1,1033,N/A,10.1, 11 
+stampfenbachstrasse,29/03/2021,10:00:01,Clear sky,3,80,3.1,1033,8,11.5, 33 
+stampfenbachstrasse,29/03/2021,11:00:01,Clear sky,10,61,1,1034,N/A,12.6, 17 
+stampfenbachstrasse,29/03/2021,12:00:01,Clear sky,10,61,1,1034,6,10.7, 25 
+stampfenbachstrasse,29/03/2021,13:00:01,Clear sky,14,41,3.7,1034,N/A,15.1, 22 
+stampfenbachstrasse,29/03/2021,14:00:02,Clear sky,14,41,3.7,1034,8,11.7, 33 
+stampfenbachstrasse,29/03/2021,15:00:01,Clear sky,14,41,3.7,1034,N/A,13, 29 
+stampfenbachstrasse,29/03/2021,16:00:01,Clear sky,18,26,1.8,1033,N/A,14, 32 
+stampfenbachstrasse,29/03/2021,17:00:02,Clear sky,18,26,1.8,1033,10,14.1, 41 
+stampfenbachstrasse,29/03/2021,18:00:02,Clear sky,18,26,1.8,1033,N/A,11.3, 33 
+stampfenbachstrasse,29/03/2021,19:00:01,Few clouds,20,18,2.6,1032,N/A,9.4, 31 
+stampfenbachstrasse,29/03/2021,20:00:01,Few clouds,20,18,2.6,1032,7,9, 32 
+stampfenbachstrasse,29/03/2021,21:00:01,Broken clouds,16,25,1.8,1032,N/A,9.2, 25 
+stampfenbachstrasse,29/03/2021,22:00:01,Broken clouds,16,25,1.8,1032,8,10.6, 33 
+stampfenbachstrasse,29/03/2021,23:00:01,Scattered clouds,10,54,4.2,1032,N/A,10.2, 11 
+stampfenbachstrasse,30/03/2021,00:00:01,Scattered clouds,10,54,4.2,1032,7,11.1, 29 
+stampfenbachstrasse,30/03/2021,01:00:01,Few clouds,7,76,3.2,1032,7,11.1, 29 
+stampfenbachstrasse,30/03/2021,02:00:01,Few clouds,7,76,3.2,1032,7,11.1, 29 
+stampfenbachstrasse,30/03/2021,03:00:01,Few clouds,5,75,2.3,1033,6,8.4, 25 
+stampfenbachstrasse,30/03/2021,04:00:01,Few clouds,5,75,2.3,1033,6,8.6, 25 
+stampfenbachstrasse,30/03/2021,05:00:01,Few clouds,5,75,2.3,1033,N/A,8.5, 8 
+stampfenbachstrasse,30/03/2021,06:00:01,Few clouds,5,81,2.1,1032,N/A,9.4, 9 
+stampfenbachstrasse,30/03/2021,07:00:01,Few clouds,5,81,2.1,1032,N/A,8.8, 8 
+stampfenbachstrasse,30/03/2021,08:00:01,Few clouds,5,81,2.1,1032,N/A,9.2, 10 
+stampfenbachstrasse,30/03/2021,09:00:01,Clear sky,5,87,2.4,1033,N/A,12.2, 11 
+stampfenbachstrasse,30/03/2021,10:00:01,Clear sky,5,87,2.4,1033,N/A,20, 18 
+stampfenbachstrasse,30/03/2021,11:00:01,Clear sky,10,66,2.2,1033,N/A,21, 19 
+stampfenbachstrasse,30/03/2021,12:00:01,Clear sky,10,66,2.2,1033,16,22.5, 59 
+stampfenbachstrasse,30/03/2021,13:00:01,Clear sky,16,41,4,1033,N/A,21.9, 20 
+stampfenbachstrasse,30/03/2021,14:00:01,Clear sky,16,41,4,1033,14,20.5, 55 
+stampfenbachstrasse,30/03/2021,15:00:01,Clear sky,18,42,3.7,1031,N/A,15.4, 24 
+stampfenbachstrasse,30/03/2021,16:00:01,Clear sky,18,42,3.7,1031,11,15.9, 45 
+stampfenbachstrasse,30/03/2021,17:00:01,Clear sky,18,42,3.7,1031,N/A,15.9, 35 
+stampfenbachstrasse,30/03/2021,18:00:01,Clear sky,21,30,5.5,1029,N/A,14.8, 35 
+stampfenbachstrasse,30/03/2021,19:00:01,Clear sky,21,30,5.5,1029,N/A,13, 34 
+stampfenbachstrasse,30/03/2021,20:00:01,Clear sky,21,30,5.5,1029,N/A,12.2, 11 
+stampfenbachstrasse,30/03/2021,21:00:01,Clear sky,17,32,3.1,1028,N/A,10.8, 26 
+stampfenbachstrasse,30/03/2021,22:00:01,Clear sky,17,32,3.1,1028,10,N/A, 41 
+stampfenbachstrasse,30/03/2021,23:00:01,Clear sky,11,58,5.5,1028,8,12.8, 33 
+stampfenbachstrasse,31/03/2021,00:00:01,Clear sky,11,58,5.5,1028,8,13.1, 33 
+stampfenbachstrasse,31/03/2021,01:00:01,Few clouds,8,76,2.6,1028,8,13.1, 33 
+stampfenbachstrasse,31/03/2021,02:00:01,Few clouds,8,76,2.6,1028,8,13.1, 33 
+stampfenbachstrasse,31/03/2021,03:00:01,Few clouds,6,75,1.8,1028,9,N/A, 37 
+stampfenbachstrasse,31/03/2021,04:00:01,Few clouds,6,75,1.8,1028,N/A,12.7, 12 
+stampfenbachstrasse,31/03/2021,05:00:01,Scattered clouds,7,87,3.7,1027,N/A,12.3, 11 
+stampfenbachstrasse,31/03/2021,06:00:01,Scattered clouds,7,87,3.7,1027,8,11.5, 33 
+stampfenbachstrasse,31/03/2021,07:00:01,Scattered clouds,7,87,3.7,1027,N/A,10.9, 10 
+stampfenbachstrasse,31/03/2021,08:00:01,Clear sky,6,87,2.6,1027,N/A,12.7, 12 
+stampfenbachstrasse,31/03/2021,09:00:01,Clear sky,6,87,2.6,1027,11,16.6, 45 
+stampfenbachstrasse,31/03/2021,10:00:01,Clear sky,6,87,2.6,1027,N/A,20.9, 19 
+stampfenbachstrasse,31/03/2021,11:00:01,Clear sky,13,62,0.6,1027,N/A,21.7, 20 
+stampfenbachstrasse,31/03/2021,12:00:01,Clear sky,13,62,0.6,1027,12,19, 50 
+stampfenbachstrasse,31/03/2021,13:00:01,Few clouds,17,42,2.4,1026,12,17.2, 50 
+stampfenbachstrasse,31/03/2021,14:00:02,Few clouds,17,42,2.4,1026,N/A,N/A, 25 
+stampfenbachstrasse,31/03/2021,15:00:01,Clear sky,20,35,7.4,1025,N/A,29.9, 30 
+stampfenbachstrasse,31/03/2021,16:00:02,Clear sky,20,35,7.4,1025,N/A,N/A, 37 
+stampfenbachstrasse,31/03/2021,17:00:01,Clear sky,22,33,3.7,1023,N/A,28.4, 41 
+stampfenbachstrasse,31/03/2021,18:00:01,Clear sky,22,33,3.7,1023,N/A,N/A, 40 
+stampfenbachstrasse,31/03/2021,19:00:01,Clear sky,23,27,5.5,1022,N/A,N/A, 41 
+stampfenbachstrasse,31/03/2021,20:00:01,Clear sky,23,27,5.5,1022,13,21, 53 
+stampfenbachstrasse,31/03/2021,21:00:23,Clear sky,23,27,5.5,1022,N/A,20.6, 26 
+stampfenbachstrasse,31/03/2021,22:00:02,Clear sky,15,51,6.1,1022,N/A,N/A, 8 
+stampfenbachstrasse,31/03/2021,23:00:02,Clear sky,15,51,6.1,1022,14,21.9, 55 
+stampfenbachstrasse,01/04/2021,00:00:02,Clear sky,15,51,6.1,1022,N/A,23.1, 25 
+stampfenbachstrasse,01/04/2021,01:00:02,Few clouds,11,71,1.8,1022,N/A,23.1, 25 
+stampfenbachstrasse,01/04/2021,02:00:02,Few clouds,11,71,1.8,1022,N/A,23.1, 25 
+stampfenbachstrasse,01/04/2021,03:00:02,Few clouds,10,71,3.6,1022,11,16.5, 45 
+stampfenbachstrasse,01/04/2021,04:00:02,Few clouds,10,71,3.6,1022,10,14.4, 41 
+stampfenbachstrasse,01/04/2021,05:00:02,Broken clouds,8,81,3.3,1022,N/A,15.4, 16 
+stampfenbachstrasse,01/04/2021,06:00:02,Broken clouds,8,81,3.3,1022,11,15.6, 45 
+stampfenbachstrasse,01/04/2021,07:00:02,Broken clouds,8,75,3.7,1021,N/A,14.9, 14 
+stampfenbachstrasse,01/04/2021,08:00:02,Broken clouds,8,75,3.7,1021,11,16.1, 45 
+stampfenbachstrasse,01/04/2021,09:00:02,Clear sky,8,75,3,1022,N/A,19.5, 18 
+stampfenbachstrasse,01/04/2021,10:00:02,Clear sky,8,75,3,1022,N/A,37.2, 34 
+stampfenbachstrasse,01/04/2021,11:00:02,Clear sky,8,75,3,1022,N/A,21.8, 20 
+stampfenbachstrasse,01/04/2021,12:00:02,Clear sky,16,41,7.4,1022,N/A,24.2, 22 
+stampfenbachstrasse,01/04/2021,13:00:02,Clear sky,16,41,7.4,1022,N/A,32.6, 30 
+stampfenbachstrasse,01/04/2021,14:00:02,Clear sky,20,37,2.2,1021,N/A,24.1, 24 
+stampfenbachstrasse,01/04/2021,15:00:02,Clear sky,20,37,2.2,1021,14,20.3, 55 
+stampfenbachstrasse,01/04/2021,16:00:02,Clear sky,22,31,7.4,1019,14,22.1, 55 
+stampfenbachstrasse,01/04/2021,17:00:02,Clear sky,22,31,7.4,1019,N/A,24.1, 42 
+stampfenbachstrasse,01/04/2021,18:00:02,Clear sky,23,27,3.7,1018,N/A,21.1, 45 
+stampfenbachstrasse,01/04/2021,19:00:02,Clear sky,23,27,3.7,1018,12,19.1, 50 
+stampfenbachstrasse,01/04/2021,20:00:02,Few clouds,21,28,9.3,1017,N/A,18.7, 43 
+stampfenbachstrasse,01/04/2021,21:00:02,Few clouds,21,28,9.3,1017,11,17.2, 45 
+stampfenbachstrasse,01/04/2021,22:00:02,Broken clouds,16,55,5.1,1017,N/A,18.6, 23 
+stampfenbachstrasse,01/04/2021,23:00:02,Broken clouds,16,55,5.1,1017,16,24.6, 59 
+stampfenbachstrasse,02/04/2021,00:00:02,Broken clouds,16,55,5.1,1017,N/A,25.2, 23 
+stampfenbachstrasse,02/04/2021,01:00:02,Few clouds,12,66,0.4,1018,N/A,25.2, 23 
+stampfenbachstrasse,02/04/2021,02:00:02,Few clouds,12,66,0.4,1018,N/A,25.2, 23 
+stampfenbachstrasse,02/04/2021,03:00:02,Broken clouds,10,71,1.5,1018,17,23.1, 61 
+stampfenbachstrasse,02/04/2021,04:00:02,Broken clouds,10,71,1.5,1018,14,20.7, 55 
+stampfenbachstrasse,02/04/2021,05:00:02,Broken clouds,9,76,1.3,1018,N/A,19.3, 18 
+stampfenbachstrasse,02/04/2021,06:00:02,Broken clouds,9,76,1.3,1018,13,19.1, 53 
+stampfenbachstrasse,02/04/2021,07:00:02,Few clouds,7,87,2.1,1018,N/A,23.3, 21 
+stampfenbachstrasse,02/04/2021,08:00:02,Few clouds,7,87,2.1,1018,17,24.9, 61 
+stampfenbachstrasse,02/04/2021,09:00:02,Clear sky,8,87,1.2,1018,N/A,29.8, 27 
+stampfenbachstrasse,02/04/2021,10:00:02,Clear sky,8,87,1.2,1018,25,N/A, 78 
+stampfenbachstrasse,02/04/2021,11:00:02,Clear sky,8,87,1.2,1018,N/A,45.1, 41 
+stampfenbachstrasse,02/04/2021,12:00:02,Few clouds,14,62,5.5,1018,N/A,49.1, 45 
+stampfenbachstrasse,02/04/2021,13:00:02,Few clouds,14,62,5.5,1018,33,44.1, 95 
+stampfenbachstrasse,02/04/2021,14:00:02,Scattered clouds,16,51,3.7,1017,N/A,44.6, 41 
+stampfenbachstrasse,02/04/2021,15:00:02,Scattered clouds,16,51,3.7,1017,33,45, 95 
+stampfenbachstrasse,02/04/2021,16:00:02,Broken clouds,18,45,3.7,1016,N/A,46.6, 45 
+stampfenbachstrasse,02/04/2021,17:00:02,Broken clouds,18,45,3.7,1016,33,46.5, 95 
+stampfenbachstrasse,02/04/2021,18:00:02,Few clouds,18,48,14.8,1015,N/A,39, 44 
+stampfenbachstrasse,02/04/2021,19:00:02,Few clouds,18,48,14.8,1015,26,36.1, 80 
+stampfenbachstrasse,02/04/2021,20:00:02,Broken clouds,15,51,18.5,1016,N/A,28.4, 26 
+stampfenbachstrasse,02/04/2021,21:00:02,Broken clouds,15,51,18.5,1016,18,26.2, 63 
+stampfenbachstrasse,02/04/2021,22:00:02,Broken clouds,12,47,20.4,1018,N/A,23.5, 27 
+stampfenbachstrasse,02/04/2021,23:00:02,Broken clouds,12,47,20.4,1018,13,19.1, 53 
+stampfenbachstrasse,03/04/2021,00:00:02,Scattered clouds,10,50,16.7,1019,N/A,12, 32 
+stampfenbachstrasse,03/04/2021,01:00:02,Scattered clouds,10,50,16.7,1019,N/A,12, 32 
+stampfenbachstrasse,03/04/2021,02:00:02,Broken clouds,7,61,7.4,1019,N/A,12, 32 
+stampfenbachstrasse,03/04/2021,03:00:02,Broken clouds,7,61,7.4,1019,9,14.4, 37 
+stampfenbachstrasse,03/04/2021,04:00:02,Scattered clouds,5,65,3.7,1019,N/A,12.8, 25 
+stampfenbachstrasse,03/04/2021,05:00:02,Scattered clouds,5,65,3.7,1019,8,13, 33 
+stampfenbachstrasse,03/04/2021,06:00:02,Few clouds,4,75,7.4,1020,N/A,16.4, 22 
+stampfenbachstrasse,03/04/2021,08:00:02,Broken clouds,4,75,5.5,1020,N/A,19.6, 18 
+stampfenbachstrasse,03/04/2021,09:00:02,Broken clouds,4,75,5.5,1020,13,18.7, 53 
+stampfenbachstrasse,03/04/2021,10:00:02,Broken clouds,4,75,5.5,1020,N/A,17, 20 
+stampfenbachstrasse,03/04/2021,11:00:02,Broken clouds,4,65,20.4,1022,N/A,16.4, 24 
+stampfenbachstrasse,03/04/2021,12:00:02,Broken clouds,4,65,20.4,1022,11,16.3, 45 
+stampfenbachstrasse,03/04/2021,13:00:02,Broken clouds,4,65,20.4,1022,N/A,15.2, 28 
+stampfenbachstrasse,03/04/2021,14:00:02,Few clouds,7,61,22.2,1022,N/A,13.6, 12 
+stampfenbachstrasse,03/04/2021,15:00:02,Few clouds,7,61,22.2,1022,8,12.9, 33 
+stampfenbachstrasse,03/04/2021,16:00:02,Broken clouds,9,46,22.2,1022,N/A,11.7, 32 
+stampfenbachstrasse,03/04/2021,17:00:02,Broken clouds,9,46,22.2,1022,8,11.5, 33 
+stampfenbachstrasse,03/04/2021,18:00:02,Few clouds,9,46,20.4,1022,N/A,12, 33 
+stampfenbachstrasse,03/04/2021,19:00:02,Few clouds,9,46,20.4,1022,7,11.1, 34 
+stampfenbachstrasse,03/04/2021,20:00:02,Few clouds,8,43,18.5,1021,N/A,10.6, 33 
+stampfenbachstrasse,03/04/2021,21:00:02,Few clouds,8,43,18.5,1021,7,10.9, 32 
+stampfenbachstrasse,03/04/2021,22:00:02,Clear sky,5,52,7.4,1022,N/A,N/A, 29 
+stampfenbachstrasse,03/04/2021,23:00:02,Clear sky,5,52,7.4,1022,7,10.7, 29 
+stampfenbachstrasse,04/04/2021,00:00:02,Clear sky,5,52,7.4,1022,N/A,10.8, 26 
+stampfenbachstrasse,04/04/2021,01:00:02,Clear sky,3,60,11.1,1022,N/A,10.8, 26 
+stampfenbachstrasse,04/04/2021,02:00:02,Clear sky,3,60,11.1,1022,N/A,10.8, 26 
+stampfenbachstrasse,04/04/2021,03:00:02,Clear sky,3,60,11.1,1022,N/A,10.7, 26 
+stampfenbachstrasse,04/04/2021,04:00:02,Clear sky,1,65,9.3,1022,N/A,10.5, 26 
+stampfenbachstrasse,04/04/2021,05:00:02,Clear sky,1,65,9.3,1022,N/A,10.7, 24 
+stampfenbachstrasse,04/04/2021,06:00:02,Clear sky,1,70,11.1,1021,N/A,11.1, 22 
+stampfenbachstrasse,04/04/2021,07:00:02,Clear sky,1,70,11.1,1021,N/A,11.3, 20 
+stampfenbachstrasse,04/04/2021,08:00:02,Clear sky,0,75,9.3,1021,N/A,N/A, 18 
+stampfenbachstrasse,04/04/2021,09:00:02,Clear sky,0,75,9.3,1021,9,12.7, 37 
+stampfenbachstrasse,04/04/2021,10:00:02,Clear sky,4,70,11.1,1022,N/A,12.6, 19 
+stampfenbachstrasse,04/04/2021,11:00:02,Clear sky,4,70,11.1,1022,N/A,N/A, 24 
+stampfenbachstrasse,04/04/2021,12:00:02,Few clouds,7,53,13,1022,N/A,13, 27 
+stampfenbachstrasse,04/04/2021,13:00:02,Few clouds,7,53,13,1022,8,11.5, 33 
+stampfenbachstrasse,04/04/2021,14:00:02,Few clouds,7,53,13,1022,N/A,9.9, 34 
+stampfenbachstrasse,04/04/2021,15:00:02,Clear sky,11,35,14.8,1021,N/A,9.6, 34 
+stampfenbachstrasse,04/04/2021,16:00:02,Clear sky,11,35,14.8,1021,N/A,10.3, 9 
+stampfenbachstrasse,04/04/2021,17:00:02,Clear sky,12,30,11.1,1019,N/A,10.1, 36 
+stampfenbachstrasse,04/04/2021,18:00:02,Clear sky,12,30,11.1,1019,6,9.9, 37 
+stampfenbachstrasse,04/04/2021,19:00:02,Clear sky,12,30,11.1,1019,N/A,N/A, 37 
+stampfenbachstrasse,04/04/2021,20:00:02,Clear sky,11,32,7.4,1018,N/A,9.6, 37 
+stampfenbachstrasse,04/04/2021,21:00:02,Clear sky,11,32,7.4,1018,6,N/A, 35 
+stampfenbachstrasse,04/04/2021,22:00:02,Clear sky,7,40,3.7,1018,N/A,9.8, 31 
+stampfenbachstrasse,04/04/2021,23:00:02,Clear sky,7,40,3.7,1018,6,10.5, 25 
+stampfenbachstrasse,05/04/2021,00:00:02,Clear sky,4,65,3.7,1018,N/A,13.6, 19 
+stampfenbachstrasse,05/04/2021,01:00:02,Clear sky,4,65,3.7,1018,N/A,13.6, 19 
+stampfenbachstrasse,05/04/2021,02:00:02,Clear sky,4,65,3.7,1018,N/A,13.6, 19 
+stampfenbachstrasse,05/04/2021,03:00:02,Clear sky,2,69,3.7,1017,8,12.4, 33 
+stampfenbachstrasse,05/04/2021,04:00:03,Clear sky,2,69,3.7,1017,9,13.7, 37 
+stampfenbachstrasse,05/04/2021,05:00:02,Clear sky,2,69,3.7,1017,N/A,15.3, 14 
+stampfenbachstrasse,05/04/2021,06:00:02,Clear sky,1,75,4.5,1015,N/A,13.4, 12 
+stampfenbachstrasse,05/04/2021,07:00:02,Clear sky,1,75,4.5,1015,8,12.1, 33 
+stampfenbachstrasse,05/04/2021,08:00:02,Clear sky,0,86,6.6,1014,N/A,N/A, 6 
+stampfenbachstrasse,05/04/2021,09:00:02,Clear sky,0,86,6.6,1014,8,12.7, 33 
+stampfenbachstrasse,05/04/2021,10:00:02,Broken clouds,5,70,8.7,1014,N/A,13.7, 14 
+stampfenbachstrasse,05/04/2021,11:00:02,Broken clouds,5,70,8.7,1014,8,12.6, 33 
+stampfenbachstrasse,05/04/2021,12:00:02,Broken clouds,10,37,14.8,1012,N/A,15.9, 31 
+stampfenbachstrasse,05/04/2021,13:00:02,Broken clouds,10,37,14.8,1012,11,17.2, 45 
+stampfenbachstrasse,05/04/2021,14:00:02,Broken clouds,11,43,18.5,1011,N/A,15.4, 33 
+stampfenbachstrasse,05/04/2021,15:00:02,Broken clouds,11,43,18.5,1011,8,13.3, 34 
+stampfenbachstrasse,05/04/2021,16:00:02,Broken clouds,13,33,31.5,1008,N/A,18.8, 17 
+stampfenbachstrasse,05/04/2021,17:00:02,Broken clouds,13,33,31.5,1008,11,17, 45 
+stampfenbachstrasse,05/04/2021,18:00:02,Broken clouds,13,33,31.5,1008,N/A,15.7, 37 
+stampfenbachstrasse,05/04/2021,19:00:02,Rain,11,38,33.3,1007,N/A,19.9, 37 
+stampfenbachstrasse,05/04/2021,20:00:02,Rain,11,38,33.3,1007,10,16.6, 41 
+stampfenbachstrasse,05/04/2021,21:00:02,Rain,9,50,31.5,1008,16,23.5, 59 
+stampfenbachstrasse,05/04/2021,22:00:02,Rain,9,50,31.5,1008,12,18.4, 50 
+stampfenbachstrasse,05/04/2021,23:00:02,Broken clouds,2,75,14.8,1011,N/A,N/A, 30 
+stampfenbachstrasse,06/04/2021,00:00:02,Broken clouds,2,75,14.8,1011,3,5.4, 29 
+stampfenbachstrasse,06/04/2021,01:00:02,Snow,0,86,7.4,1015,3,5.4, 29 
+stampfenbachstrasse,06/04/2021,02:00:02,Snow,0,86,7.4,1015,3,5.4, 29 
+stampfenbachstrasse,06/04/2021,03:00:02,Snow,-1,93,9.3,1016,4,6.2, 33 
+stampfenbachstrasse,06/04/2021,04:00:02,Snow,-1,93,9.3,1016,4,6.3, 32 
+stampfenbachstrasse,06/04/2021,05:00:02,Snow,-1,93,7.4,1016,N/A,6.7, 31 
+stampfenbachstrasse,06/04/2021,06:00:02,Snow,-1,93,7.4,1016,4,6.2, 30 
+stampfenbachstrasse,06/04/2021,07:00:02,Broken clouds,-2,93,3.7,1015,N/A,7.1, 29 
+stampfenbachstrasse,06/04/2021,08:00:02,Broken clouds,-2,93,3.7,1015,6,8, 25 
+stampfenbachstrasse,06/04/2021,09:00:02,Broken clouds,-2,93,3.9,1015,N/A,14.8, 23 
+stampfenbachstrasse,06/04/2021,10:00:02,Broken clouds,-2,93,3.9,1015,14,19.7, 55 
+stampfenbachstrasse,06/04/2021,11:00:02,Broken clouds,0,86,9.3,1016,N/A,19.7, 26 
+stampfenbachstrasse,06/04/2021,12:00:02,Broken clouds,0,86,9.3,1016,15,22.1, 57 
+stampfenbachstrasse,06/04/2021,13:00:02,Broken clouds,2,55,7.4,1015,N/A,13.4, 26 
+stampfenbachstrasse,06/04/2021,14:00:02,Broken clouds,2,55,7.4,1015,8,12.1, 33 
+stampfenbachstrasse,06/04/2021,15:00:02,Broken clouds,2,52,13,1014,N/A,N/A, 25 
+stampfenbachstrasse,06/04/2021,16:00:02,Broken clouds,2,52,13,1014,21,29.2, 70 
+stampfenbachstrasse,06/04/2021,17:00:02,Broken clouds,2,52,13,1014,N/A,15.5, 25 
+stampfenbachstrasse,06/04/2021,18:00:02,Broken clouds,2,60,22.2,1012,N/A,12.9, 24 
+stampfenbachstrasse,06/04/2021,19:00:02,Broken clouds,2,60,22.2,1012,6,9, 28 
+stampfenbachstrasse,06/04/2021,20:00:02,Snow,0,75,7.4,1012,N/A,9.8, 28 
+stampfenbachstrasse,06/04/2021,21:00:02,Snow,0,75,7.4,1012,4,6.6, 28 
+stampfenbachstrasse,06/04/2021,22:00:02,Snow,0,74,9.3,1013,N/A,7.5, 7 
+stampfenbachstrasse,06/04/2021,23:00:02,Snow,0,74,9.3,1013,4,7.9, 27 
+stampfenbachstrasse,07/04/2021,00:00:02,Snow,0,74,6.3,1013,N/A,7.9, 27 
+stampfenbachstrasse,07/04/2021,01:00:02,Snow,0,74,6.3,1013,N/A,7.9, 27 
+stampfenbachstrasse,07/04/2021,02:00:02,Broken clouds,0,80,5.5,1013,N/A,7.9, 27 
+stampfenbachstrasse,07/04/2021,03:00:02,Broken clouds,0,80,5.5,1013,4,7.4, 28 
+stampfenbachstrasse,07/04/2021,04:00:02,Rain,0,80,7.4,1013,N/A,7.6, 27 
+stampfenbachstrasse,07/04/2021,05:00:02,Rain,0,80,7.4,1013,4,6.3, 27 
+stampfenbachstrasse,07/04/2021,06:00:02,Rain,0,80,7.4,1013,N/A,6.6, 28 
+stampfenbachstrasse,07/04/2021,07:00:02,Snow,-1,93,14.8,1015,N/A,7.4, 27 
+stampfenbachstrasse,07/04/2021,08:00:02,Snow,-1,93,14.8,1015,5,8.5, 23 
+stampfenbachstrasse,07/04/2021,09:00:02,Snow,-2,86,13,1017,N/A,9.9, 9 
+stampfenbachstrasse,07/04/2021,10:00:02,Snow,-2,86,13,1017,6,9.9, 25 
+stampfenbachstrasse,07/04/2021,11:00:02,Snow,0,80,20.4,1020,N/A,12.5, 25 
+stampfenbachstrasse,07/04/2021,12:00:02,Snow,0,80,20.4,1020,6,10.3, 26 
+stampfenbachstrasse,07/04/2021,13:00:02,Snow,1,69,16.7,1021,N/A,10, 27 
+stampfenbachstrasse,07/04/2021,14:00:02,Snow,1,69,16.7,1021,9,12.7, 37 
+stampfenbachstrasse,07/04/2021,15:00:02,Scattered clouds,3,52,14.8,1022,N/A,11, 30 
+stampfenbachstrasse,07/04/2021,16:00:02,Scattered clouds,3,52,14.8,1022,6,10.7, 32 
+stampfenbachstrasse,07/04/2021,17:00:02,Scattered clouds,3,52,14.8,1022,N/A,N/A, 32 
+stampfenbachstrasse,07/04/2021,18:00:02,Broken clouds,3,41,16.7,1022,N/A,10.4, 31 
+stampfenbachstrasse,07/04/2021,19:00:02,Broken clouds,3,41,16.7,1022,5,9.2, 31 
+stampfenbachstrasse,07/04/2021,20:00:02,Broken clouds,3,41,16.7,1022,N/A,7.9, 32 
+stampfenbachstrasse,07/04/2021,21:00:02,Broken clouds,2,48,13,1023,5,7.1, 32 
+stampfenbachstrasse,07/04/2021,22:00:02,Broken clouds,2,48,13,1023,5,8.2, 21 
+stampfenbachstrasse,07/04/2021,23:00:02,Broken clouds,3,44,9.3,1024,N/A,8.3, 31 
+stampfenbachstrasse,08/04/2021,00:00:02,Broken clouds,3,44,9.3,1024,5,7.9, 31 
+stampfenbachstrasse,08/04/2021,01:00:02,Broken clouds,2,48,14.8,1024,5,7.9, 31 
+stampfenbachstrasse,08/04/2021,02:00:02,Broken clouds,2,48,14.8,1024,5,7.9, 31 
+stampfenbachstrasse,08/04/2021,03:00:02,Broken clouds,1,48,13,1024,4,7.6, 31 
+stampfenbachstrasse,08/04/2021,04:00:02,Broken clouds,1,48,13,1024,4,7.7, 30 
+stampfenbachstrasse,08/04/2021,05:00:02,Broken clouds,0,51,3.7,1025,N/A,7.4, 30 
+stampfenbachstrasse,08/04/2021,06:00:02,Broken clouds,0,51,3.7,1025,N/A,7.4, 30 
+stampfenbachstrasse,08/04/2021,07:00:02,Broken clouds,0,51,3.7,1025,N/A,8.3, 27 
+stampfenbachstrasse,08/04/2021,08:00:02,Clear sky,-1,69,3.7,1025,N/A,10.8, 25 
+stampfenbachstrasse,08/04/2021,09:00:02,Clear sky,-1,69,3.7,1025,10,14.6, 41 
+stampfenbachstrasse,08/04/2021,10:00:02,Clear sky,-1,69,3.7,1025,N/A,16.8, 23 
+stampfenbachstrasse,08/04/2021,11:00:02,Clear sky,4,42,11.1,1026,N/A,N/A, 4 
+stampfenbachstrasse,08/04/2021,12:00:02,Clear sky,4,42,11.1,1026,8,12.5, 33 
+stampfenbachstrasse,08/04/2021,13:00:02,Scattered clouds,5,39,7.4,1026,N/A,13, 31 
+stampfenbachstrasse,08/04/2021,14:00:02,Scattered clouds,5,39,7.4,1026,N/A,N/A, 33 
+stampfenbachstrasse,08/04/2021,15:00:03,Few clouds,8,34,9.3,1025,N/A,N/A, 34 
+stampfenbachstrasse,08/04/2021,16:00:02,Few clouds,8,34,9.3,1025,11,15.9, 45 
+stampfenbachstrasse,08/04/2021,17:00:02,Clear sky,10,34,13,1024,N/A,13.7, 34 
+stampfenbachstrasse,08/04/2021,18:00:02,Clear sky,10,34,13,1024,N/A,14, 33 
+stampfenbachstrasse,08/04/2021,19:00:03,Clear sky,10,34,13,1024,N/A,13.6, 33 
+stampfenbachstrasse,08/04/2021,20:00:03,Clear sky,9,34,13,1022,N/A,11, 34 
+stampfenbachstrasse,08/04/2021,21:00:02,Clear sky,9,34,13,1022,N/A,10.7, 33 
+stampfenbachstrasse,08/04/2021,22:00:02,Clear sky,9,34,13,1022,N/A,10, 28 
+stampfenbachstrasse,08/04/2021,23:00:02,Clear sky,3,65,7.4,1022,N/A,9.6, 26 
+stampfenbachstrasse,09/04/2021,00:00:02,Clear sky,3,65,7.4,1022,6,9.1, 25 
+stampfenbachstrasse,09/04/2021,01:00:02,Clear sky,3,65,7.4,1022,6,9.1, 25 
+stampfenbachstrasse,09/04/2021,02:00:02,Few clouds,0,74,5.5,1021,6,9.1, 25 
+stampfenbachstrasse,09/04/2021,03:00:02,Few clouds,0,74,5.5,1021,5,7.7, 26 
+stampfenbachstrasse,09/04/2021,04:00:02,Broken clouds,0,80,4,1021,N/A,6.9, 25 
+stampfenbachstrasse,09/04/2021,05:00:02,Broken clouds,0,80,4,1021,4,7.4, 26 
+stampfenbachstrasse,09/04/2021,06:00:02,Broken clouds,0,80,4.1,1020,N/A,7.2, 27 
+stampfenbachstrasse,09/04/2021,07:00:02,Broken clouds,0,80,4.1,1020,6,10.8, 25 
+stampfenbachstrasse,09/04/2021,08:00:02,Clear sky,-1,86,1.8,1020,N/A,14.8, 13 
+stampfenbachstrasse,09/04/2021,09:00:02,Clear sky,-1,86,1.8,1020,12,18.7, 50 
+stampfenbachstrasse,09/04/2021,10:00:02,Clear sky,-1,86,1.8,1020,N/A,29.3, 27 
+stampfenbachstrasse,09/04/2021,11:00:02,Clear sky,7,53,11.1,1020,N/A,32.8, 30 
+stampfenbachstrasse,09/04/2021,12:00:02,Clear sky,7,53,11.1,1020,14,21.2, 55 
+stampfenbachstrasse,09/04/2021,13:00:03,Clear sky,7,53,11.1,1020,N/A,18.8, 24 
+stampfenbachstrasse,09/04/2021,14:00:02,Clear sky,13,26,9.3,1019,N/A,15.7, 30 
+stampfenbachstrasse,09/04/2021,15:00:03,Clear sky,13,26,9.3,1019,10,15.7, 41 
+stampfenbachstrasse,09/04/2021,16:00:02,Few clouds,14,23,16.7,1017,11,18.2, 45 
+stampfenbachstrasse,09/04/2021,17:00:03,Few clouds,14,23,16.7,1017,17,25.2, 61 
+stampfenbachstrasse,09/04/2021,18:00:02,Clear sky,16,22,14.8,1016,N/A,N/A, 39 
+stampfenbachstrasse,09/04/2021,19:00:02,Clear sky,16,22,14.8,1016,N/A,18.9, 38 
+stampfenbachstrasse,09/04/2021,20:00:02,Few clouds,15,25,14.8,1015,N/A,16.5, 37 
+stampfenbachstrasse,09/04/2021,21:00:02,Few clouds,15,25,14.8,1015,10,16.2, 41 
+stampfenbachstrasse,09/04/2021,22:00:02,Broken clouds,13,35,9.3,1016,N/A,15.3, 37 
+stampfenbachstrasse,09/04/2021,23:00:02,Broken clouds,13,35,9.3,1016,10,15.1, 41 
+stampfenbachstrasse,10/04/2021,00:00:02,Broken clouds,13,35,9.3,1016,N/A,14.1, 30 
+stampfenbachstrasse,10/04/2021,01:00:02,Broken clouds,7,53,11.1,1016,N/A,14.1, 30 
+stampfenbachstrasse,10/04/2021,02:00:02,Broken clouds,7,53,11.1,1016,N/A,14.1, 30 
+stampfenbachstrasse,10/04/2021,03:00:02,Broken clouds,7,53,11.1,1016,N/A,12.8, 32 
+stampfenbachstrasse,10/04/2021,04:00:02,Broken clouds,8,53,11.1,1016,N/A,11.6, 33 
+stampfenbachstrasse,10/04/2021,05:00:02,Broken clouds,8,53,11.1,1016,7,10.7, 33 
+stampfenbachstrasse,10/04/2021,06:00:02,Few clouds,7,61,3.7,1016,N/A,11.6, 35 
+stampfenbachstrasse,10/04/2021,07:00:02,Few clouds,7,61,3.7,1016,8,12.4, 33 
+stampfenbachstrasse,10/04/2021,08:00:02,Broken clouds,7,61,3.7,1016,N/A,10.9, 34 
+stampfenbachstrasse,10/04/2021,09:00:02,Broken clouds,7,61,3.7,1016,N/A,N/A, 34 
+stampfenbachstrasse,10/04/2021,10:00:02,Broken clouds,8,66,14.8,1017,N/A,9.5, 33 
+stampfenbachstrasse,10/04/2021,11:00:02,Broken clouds,8,66,14.8,1017,5,8.7, 33 
+stampfenbachstrasse,10/04/2021,12:00:02,Broken clouds,11,62,5.5,1017,N/A,10.3, 32 
+stampfenbachstrasse,10/04/2021,13:00:02,Broken clouds,11,62,5.5,1017,8,11.7, 33 
+stampfenbachstrasse,10/04/2021,14:00:02,Broken clouds,11,62,5.5,1017,N/A,11, 10 
+stampfenbachstrasse,10/04/2021,15:00:02,Few clouds,15,44,5.5,1014,N/A,N/A, 37 
+stampfenbachstrasse,10/04/2021,16:00:02,Few clouds,15,44,5.5,1014,6,10.1, 39 
+stampfenbachstrasse,10/04/2021,17:00:02,Few clouds,15,44,5.5,1014,N/A,11, 40 
+stampfenbachstrasse,10/04/2021,18:00:02,Few clouds,16,39,5.5,1013,N/A,N/A, 41 
+stampfenbachstrasse,10/04/2021,19:00:03,Few clouds,16,39,5.5,1013,N/A,N/A, 41 
+stampfenbachstrasse,10/04/2021,20:00:03,Few clouds,15,39,3.7,1012,N/A,10.7, 39 
+stampfenbachstrasse,10/04/2021,21:00:02,Few clouds,15,39,3.7,1012,8,12.1, 38 
+stampfenbachstrasse,10/04/2021,22:00:02,Broken clouds,12,47,7.6,1012,N/A,13.6, 34 
+stampfenbachstrasse,10/04/2021,23:00:02,Broken clouds,12,47,7.6,1012,7,11.2, 30 
+stampfenbachstrasse,11/04/2021,00:00:02,Scattered clouds,10,62,3.7,1012,N/A,10.3, 30 
+stampfenbachstrasse,11/04/2021,01:00:02,Scattered clouds,10,62,3.7,1012,N/A,10.3, 30 
+stampfenbachstrasse,11/04/2021,02:00:02,Broken clouds,8,71,5.1,1012,N/A,10.3, 30 
+stampfenbachstrasse,11/04/2021,03:00:02,Broken clouds,8,71,5.1,1012,9,14.3, 37 
+stampfenbachstrasse,11/04/2021,04:00:02,Broken clouds,8,71,5.1,1012,N/A,10.5, 18 
+stampfenbachstrasse,11/04/2021,05:00:02,Broken clouds,8,71,3.7,1011,N/A,9.9, 19 
+stampfenbachstrasse,11/04/2021,06:00:02,Broken clouds,8,71,3.7,1011,5,8.8, 21 
+stampfenbachstrasse,11/04/2021,07:00:02,Broken clouds,8,71,2.3,1010,N/A,N/A, 22 
+stampfenbachstrasse,11/04/2021,08:00:02,Broken clouds,8,71,2.3,1010,N/A,7.4, 7 
+stampfenbachstrasse,11/04/2021,09:00:02,Broken clouds,8,71,2.3,1010,N/A,N/A, 20 
+stampfenbachstrasse,11/04/2021,10:00:02,Clear sky,10,66,5.5,1010,N/A,9.2, 18 
+stampfenbachstrasse,11/04/2021,11:00:02,Clear sky,10,66,5.5,1010,5,9.2, 24 
+stampfenbachstrasse,11/04/2021,12:00:02,Broken clouds,13,54,0.3,1011,N/A,11, 29 
+stampfenbachstrasse,11/04/2021,13:00:02,Broken clouds,13,54,0.3,1011,7,10.7, 33 
+stampfenbachstrasse,11/04/2021,14:00:02,Clear sky,16,42,3.7,1010,N/A,N/A, 1 
+stampfenbachstrasse,11/04/2021,15:00:02,Clear sky,16,42,3.7,1010,6,10.2, 37 
+stampfenbachstrasse,11/04/2021,16:00:02,Clear sky,16,42,3.7,1010,N/A,9.4, 38 
+stampfenbachstrasse,11/04/2021,17:00:02,Few clouds,19,30,9.3,1009,N/A,9.1, 39 
+stampfenbachstrasse,11/04/2021,18:00:02,Few clouds,19,30,9.3,1009,4,7.6, 37 
+stampfenbachstrasse,11/04/2021,19:00:03,Few clouds,19,30,9.3,1009,N/A,19.5, 34 
+stampfenbachstrasse,11/04/2021,20:00:03,Broken clouds,13,62,22.2,1011,N/A,10.7, 32 
+stampfenbachstrasse,11/04/2021,21:00:03,Broken clouds,13,62,22.2,1011,5,7, 30 
+stampfenbachstrasse,11/04/2021,22:00:03,Rain,10,76,16.7,1013,N/A,N/A, 28 
+stampfenbachstrasse,11/04/2021,23:00:02,Rain,10,76,16.7,1013,3,5.1, 27 
+stampfenbachstrasse,12/04/2021,00:00:03,Rain,8,87,11.1,1015,N/A,4.7, 26 
+stampfenbachstrasse,12/04/2021,01:00:02,Rain,8,87,11.1,1015,N/A,4.7, 26 
+stampfenbachstrasse,12/04/2021,02:00:02,Rain,7,87,14.8,1016,N/A,4.7, 26 
+stampfenbachstrasse,12/04/2021,03:00:02,Rain,7,87,14.8,1016,3,4.4, 25 
+stampfenbachstrasse,12/04/2021,04:00:02,Rain,5,87,20.4,1017,N/A,3.6, 20 
+stampfenbachstrasse,12/04/2021,05:00:03,Rain,5,87,20.4,1017,2,3.5, 20 
+stampfenbachstrasse,12/04/2021,06:00:03,Rain,2,87,16.7,1019,N/A,4.1, 17 
+stampfenbachstrasse,12/04/2021,07:00:02,Rain,2,87,16.7,1019,2,N/A, 18 
+stampfenbachstrasse,12/04/2021,08:00:02,Rain,2,87,16.7,1019,N/A,4.4, 13 
+stampfenbachstrasse,12/04/2021,09:00:03,Snow,1,93,5.5,1023,N/A,5.3, 7 
+stampfenbachstrasse,12/04/2021,10:00:02,Snow,1,93,5.5,1023,3,5.6, 12 
+stampfenbachstrasse,12/04/2021,11:00:03,Snow,1,93,9.3,1024,N/A,5.8, 10 
+stampfenbachstrasse,12/04/2021,12:00:03,Snow,1,93,9.3,1024,N/A,6, 11 
+stampfenbachstrasse,12/04/2021,13:00:02,Rain,2,93,1.8,1026,N/A,6, 13 
+stampfenbachstrasse,12/04/2021,14:00:03,Rain,2,93,1.8,1026,5,6.5, 21 
+stampfenbachstrasse,12/04/2021,15:00:02,Broken clouds,3,81,5.5,1026,N/A,6.7, 22 
+stampfenbachstrasse,12/04/2021,16:00:02,Broken clouds,3,81,5.5,1026,4,7.5, 22 
+stampfenbachstrasse,12/04/2021,17:00:02,Broken clouds,3,81,3.7,1027,N/A,8.1, 24 
+stampfenbachstrasse,12/04/2021,18:00:03,Broken clouds,3,81,3.7,1027,7,10, 29 
+stampfenbachstrasse,12/04/2021,19:00:03,Broken clouds,4,65,7.4,1027,N/A,8.4, 26 
+stampfenbachstrasse,12/04/2021,20:00:03,Broken clouds,4,65,7.4,1027,6,9.6, 27 
+stampfenbachstrasse,12/04/2021,21:00:02,Broken clouds,4,65,7.4,1027,N/A,10, 9 
+stampfenbachstrasse,12/04/2021,22:00:03,Broken clouds,2,81,7.4,1028,6,9.2, 26 
+stampfenbachstrasse,12/04/2021,23:00:03,Broken clouds,2,81,7.4,1028,5,8.6, 25 
+stampfenbachstrasse,13/04/2021,00:00:03,Broken clouds,1,87,2.3,1028,N/A,9.9, 22 
+stampfenbachstrasse,13/04/2021,01:00:02,Broken clouds,1,87,2.3,1028,N/A,9.9, 22 
+stampfenbachstrasse,13/04/2021,02:00:03,Broken clouds,0,80,2.8,1028,N/A,9.9, 22 
+stampfenbachstrasse,13/04/2021,03:00:03,Broken clouds,0,80,2.8,1028,7,11, 29 
+stampfenbachstrasse,13/04/2021,04:00:02,Few clouds,0,86,3.8,1028,N/A,12.3, 11 
+stampfenbachstrasse,13/04/2021,05:00:03,Few clouds,0,86,3.8,1028,9,13.3, 37 
+stampfenbachstrasse,13/04/2021,06:00:02,Few clouds,-1,93,3.7,1028,N/A,13.9, 13 
+stampfenbachstrasse,13/04/2021,07:00:03,Few clouds,-1,93,3.7,1028,10,15.2, 41 
+stampfenbachstrasse,13/04/2021,08:00:02,Few clouds,-1,93,3.7,1028,N/A,17.5, 16 
+stampfenbachstrasse,13/04/2021,09:00:03,Mist,-1,93,1.8,1029,N/A,20.9, 19 
+stampfenbachstrasse,13/04/2021,10:00:02,Mist,-1,93,1.8,1029,N/A,28.1, 26 
+stampfenbachstrasse,13/04/2021,11:00:03,Mist,-1,93,1.8,1029,N/A,29.6, 27 
+stampfenbachstrasse,13/04/2021,12:00:03,Scattered clouds,3,75,5.5,1029,N/A,27.5, 25 
+stampfenbachstrasse,13/04/2021,13:00:03,Scattered clouds,3,75,5.5,1029,13,19.1, 53 
+stampfenbachstrasse,13/04/2021,14:00:03,Broken clouds,5,56,11.1,1028,N/A,14.8, 25 
+stampfenbachstrasse,13/04/2021,15:00:03,Broken clouds,5,56,11.1,1028,8,11.4, 33 
+stampfenbachstrasse,13/04/2021,16:00:04,Broken clouds,7,56,9.3,1028,6,N/A, 32 
