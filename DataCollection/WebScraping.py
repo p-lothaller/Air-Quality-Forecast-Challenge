@@ -11,7 +11,7 @@ from datetime import datetime
 import re
 
 #If a workbook with data already exist, open and save data to it, else create a new workbook to work from
-file_name = 'WeatherData.xlsx'
+file_name = 'WeatherData1.xlsx'
 
 if path.exists(file_name):
     workbook = load_workbook(filename=file_name)
