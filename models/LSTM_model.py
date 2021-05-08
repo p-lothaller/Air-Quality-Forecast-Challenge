@@ -124,7 +124,8 @@ def lstm(data, loc=0.0):
     print("PM2.5 MSE: ", mean_squared_error(y_true2, y_pred2))
     print("PM2.5 MAE: ", mean_absolute_error(y_true2, y_pred2))
 
-    e = {'PM2.5': [mean_squared_error(y_true1, y_pred1), mean_absolute_error(y_true1, y_pred1)], 'PM10': [mean_squared_error(y_true2, y_pred2), mean_absolute_error(y_true2, y_pred2)]}
+    e = {'PM2.5': [mean_squared_error(y_true1, y_pred1), mean_absolute_error(y_true1, y_pred1)], 
+        'PM10': [mean_squared_error(y_true2, y_pred2), mean_absolute_error(y_true2, y_pred2)]}
     error_data = pd.DataFrame(data=e)
     error_data = error_data.rename(index = {0:'MSE', 1:'MAE'})
 
