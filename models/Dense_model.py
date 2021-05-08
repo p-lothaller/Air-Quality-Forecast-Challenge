@@ -1,4 +1,4 @@
-# LSTM learning model
+# Dense layers
 
 def dense(data, loc=0.0):
     import tensorflow as tf
