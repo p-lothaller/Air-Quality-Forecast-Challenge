@@ -1,6 +1,6 @@
 # Dense layers
 
-def dense(data, loc=0.0):
+def dense(data):
     import tensorflow as tf
     import numpy as np
     import pandas as pd
@@ -15,17 +15,9 @@ def dense(data, loc=0.0):
     from pandas.plotting import register_matplotlib_converters
     register_matplotlib_converters()
     from tensorflow.keras.layers import Dense
+    
 
-    if loc == 0.0: # Aidan
-        df = data[data['loc'] == 0.0]
-        print('Location A')
-    elif loc == 1.0: # Ayoung
-        df = data[data['loc'] == 1.0]
-        print('Location B')
-    else:
-        print('Check the location input.')
-
-    df = df.drop('loc',axis=1)
+    df = data.drop('loc',axis=1)
 
     labels = ['PM2.5_pi', 'PM10_pi']
 
