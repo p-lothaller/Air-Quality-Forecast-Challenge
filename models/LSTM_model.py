@@ -135,8 +135,8 @@ def lstm_plot(results25, results10, location=0.0, save=False):
     import matplotlib.pyplot as plt
     pm25 = plt.figure(1)
     plt.plot(results25, label = ['Labels', 'Predictions'])
-    plt.xlabel('Count')
-    plt.ylabel('PM2.5 [ug/m3]')
+    plt.xlabel('Hour (h)')
+    plt.ylabel('PM2.5 (µg/m3)')
     plt.legend()
     if location == 0.0:
         plt.title('Location A PM2.5')
@@ -149,7 +149,7 @@ def lstm_plot(results25, results10, location=0.0, save=False):
     pm10 = plt.figure(2)
     plt.plot(results10, label = ['Labels', 'Predictions'])
     plt.xlabel('Count')
-    plt.ylabel('PM10 [ug/m3]')
+    plt.ylabel('PM10 (µg/m3)')
     plt.legend()
     if location == 0.0:
         plt.title('Location A PM10')
