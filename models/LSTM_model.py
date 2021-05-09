@@ -54,16 +54,16 @@ def lstm(data, loc=0.0):
     scaled_X_train = Xscaler.transform(X_train)
     print(X_train.shape)
 
-    Yscaler = MinMaxScaler(feature_range=(0, 1))
-    Yscaler.fit(y_train1)
-    scaled_y_train1 = Yscaler.transform(y_train1)
+    Yscaler1 = MinMaxScaler(feature_range=(0, 1))
+    Yscaler1.fit(y_train1)
+    scaled_y_train1 = Yscaler1.transform(y_train1)
     print(scaled_y_train1.shape)
     scaled_y_train1 = scaled_y_train1.reshape(-1) # remove the second dimention from y so the shape changes from (n,1) to (n,)
     print(scaled_y_train1.shape)
 
-    Yscaler = MinMaxScaler(feature_range=(0, 1))
-    Yscaler.fit(y_train2)
-    scaled_y_train2 = Yscaler.transform(y_train2)
+    Yscaler2 = MinMaxScaler(feature_range=(0, 1))
+    Yscaler2.fit(y_train2)
+    scaled_y_train2 = Yscaler2.transform(y_train2)
     print(scaled_y_train2.shape)
     scaled_y_train2 = scaled_y_train2.reshape(-1) # remove the second dimention from y so the shape changes from (n,1) to (n,)
     print(scaled_y_train2.shape)
@@ -103,7 +103,7 @@ def lstm(data, loc=0.0):
     model25.fit(generator1,epochs=15)
 
     y_pred_scaled1 = model25.predict(test_generator)
-    y_pred1 = Yscaler.inverse_transform(y_pred_scaled1)
+    y_pred1 = Yscaler1.inverse_transform(y_pred_scaled1)
     results25 = pd.DataFrame({'y_true':test_df['PM2.5_pi'].values[n_input:],'y_pred':y_pred1.ravel()})
 
     y_true1= test_df['PM2.5_pi'].values[n_input:]
@@ -116,7 +116,7 @@ def lstm(data, loc=0.0):
     print('LSTM for PM10 starts')
     model10.fit(generator2,epochs=15) 
     y_pred_scaled2 = model10.predict(test_generator)
-    y_pred2 = Yscaler.inverse_transform(y_pred_scaled2)
+    y_pred2 = Yscaler2.inverse_transform(y_pred_scaled2)
     results10 = pd.DataFrame({'y_true1':test_df['PM10_pi'].values[n_input:],'y_pred':y_pred2.ravel()})
 
     y_true2= test_df['PM10_pi'].values[n_input:]
